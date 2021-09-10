@@ -4,11 +4,15 @@ Dante's Star
 Il s'agit d'un algorithme de génération aléatoire de labyrinthe ( ./generator ) et d'un algorithme de résolution de labyrinthe ( ./solver )
 
 HOW TO USE IT ?
-Pour construire le binare:
+
+Pour construire les binares:
+
 $> make
 
 Pour générer un labyrinthe aléatoire de largeur x et de hauteur y:
+
 $> ./generator x y
 
 Pour résoudre un labyrinthe stocké dans un fichier .txt
+
 $> ./solver [fichier.txt]
